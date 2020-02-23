@@ -69,6 +69,7 @@ public class LPerson01 {
     public LPerson01 lPerson01Factory(){
         if(lPerson01 == null){
             lPerson01 = new LPerson01();
+
         }
         return lPerson01;
     }
