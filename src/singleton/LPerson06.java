@@ -3,18 +3,18 @@ package singleton;
 /**
  * Created by Senliang-Ying on 2020/2/16.
  *
- * 懒汉式单例05
+ * 懒汉式单例06
  * 枚举方法实现
  * 特点：基本满足所有要求，而且还不容易被攻击。
  *
  */
-public enum LPerson07 {
+public enum LPerson06 {
     //    1. 类声明
-    LPerson07("枚举单例");
+    LPerson06("枚举单例");
 
     private String name;
 
-    private LPerson07(String name){
+    private LPerson06(String name){
        this.name = name;
     }
 
@@ -22,6 +22,7 @@ public enum LPerson07 {
     public void sayHello() {
         System.out.println("这是通过枚举实现的单例");
     }
+
 
     public String getName() {
         return name;

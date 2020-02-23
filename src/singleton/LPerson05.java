@@ -3,7 +3,7 @@ package singleton;
 /**
  * Created by Senliang-Ying on 2020/2/16.
  *
- * 懒汉式单例06
+ * 懒汉式单例05
  * 通过内部类来实现
  * 特点：线程安全，效率也高，但是可以通过序列化攻击
  *
